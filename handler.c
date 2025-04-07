@@ -20,9 +20,9 @@ void hello()
 
 _Bool is_bin_str(char* s)
 {
-	while (s != '\0')
+	while (*s != '\0')
 	{
-		if (!(s == '1' || s == '0'))
+		if (!(*s == '1' || *s == '0'))
 			return 0;
 		s++;
 	}
