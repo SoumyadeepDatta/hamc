@@ -24,6 +24,7 @@ _Bool is_bin_str(char* s)
 	{
 		if (!(s == '1' || s == '0'))
 			return 0;
+		s++;
 	}
 	return 1;
 }
